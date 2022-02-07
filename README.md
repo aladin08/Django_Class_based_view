@@ -7,3 +7,5 @@ Put up the changes to github: git push
 
 #Create Model:
 tap "Model" and django will create for us a model
+
+https://ccbv.co.uk/

@@ -10,9 +10,11 @@ class Post(models.Model):
     content = models.TextField(max_length=1000)
     created_date = models.DateTimeField(default=timezone.now)
     image = models.ImageField(upload_to='post-img/')
+    active = models.BooleanField(default=False)
+
 
     def __str__(self):
-        pass
+        return self.title
 
     class Meta:
         db_table = ''
